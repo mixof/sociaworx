@@ -1,0 +1,354 @@
+/*-----------Bg images-------------*/
+/*-----------Font colors-----------*/
+/*------------Bg colors-----------*/
+@font-face {
+  font-family: 'SF UI Display Ultralight';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Ultralight"), url("sf-ui-display-ultralight-58646b19bf205.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Thin"), url("sf-ui-display-thin-58646e9b26e8b.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Light"), url("sf-ui-display-light-58646b33e0551.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Medium"), url("sf-ui-display-medium-58646be638f96.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Regular"), url("SFUIDisplay-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Semibold"), url("sf-ui-display-semibold-58646eddcae92.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Bold"), url("sf-ui-display-bold-58646a511e3d9.woff") format("woff"); }
+
+@font-face {
+  font-family: 'SF UI Display Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF UI Display Heavy"), url("sf-ui-display-heavy-586470160b9e5.woff") format("woff"); }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: SF UI Display Regular,MyriadPro-Regular,sans-serif;
+  background-color: #f8f8f8; }
+
+a {
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s; }
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1); }
+  hr.light {
+    border-color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: SF UI Display Heavy,Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px; }
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px; }
+
+section {
+  padding: 100px 0; }
+  section h2 {
+    font-size: 50px; }
+
+i.play {
+  background: url("../img/play-button.svg");
+  display: inline-block;
+  height: 2.8rem;
+  width: 2.8rem;
+  vertical-align: middle;
+  margin-right: 0.3rem; }
+
+i.h_menu_icon {
+  background: url("../img/menu.png");
+  display: inline-block;
+  height: 1.5rem;
+  width: 2.6rem;
+  vertical-align: middle;
+  margin-right: 0.3rem; }
+
+.h_content {
+  z-index: 2; }
+
+.h_device {
+  z-index: 1; }
+
+.insta-button {
+  padding: 1rem 4rem;
+  background-color: #3392ca;
+  color: #fff;
+  border-radius: 1.8rem;
+  text-decoration: none; }
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background: url("../img/header_bg.png"), #d1d5d4;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+  font-weight: 200;
+  letter-spacing: 1px; }
+  #mainNav .navbar-brand {
+    color: #fdcc52;
+    font-weight: 200;
+    letter-spacing: 1px; }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #fcbd20; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #222; }
+  #mainNav .navbar-nav > li > a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222; }
+    #mainNav .navbar-nav > li > a.active {
+      color: #fdcc52 !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li > a.active:hover {
+        background-color: transparent; }
+    #mainNav .navbar-nav > li > a:focus {
+      color: #222; }
+      #mainNav .navbar-nav > li > a:focus:hover {
+        color: #fdcc52; }
+    #mainNav .navbar-nav > li > a:hover {
+      color: #fdcc52; }
+
+#testimonials {
+  background: url("../img/testimonials_bg.png"); }
+  #testimonials .testimonial {
+    width: 100%;
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 1.4rem;
+    box-shadow: 0 8px 8px -2px #23232342;
+    -moz-box-shadow: 0 8px 8px -2px #23232342;
+    -webkit-box-shadow: 0 8px 8px -2px #23232342; }
+    #testimonials .testimonial .tes-img-block {
+      width: 100%; }
+    #testimonials .testimonial .tes-data-block {
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+      text-align: left;
+      padding-left: 3rem;
+      color: #282828; }
+      #testimonials .testimonial .tes-data-block .tes-name {
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        display: block;
+        padding-bottom: 1.5rem; }
+      #testimonials .testimonial .tes-data-block .tes-subtitle {
+        font-size: 1.7rem; }
+      #testimonials .testimonial .tes-data-block .tes-text {
+        padding-top: 1rem;
+        font-family: SF UI Display Regular,Helvetica,Arial,sans-serif;
+        font-size: 1.2rem;
+        padding-bottom: 1rem; }
+      #testimonials .testimonial .tes-data-block .tes-author {
+        font-size: 1.2rem; }
+  #testimonials .tes-account-block {
+    background-color: #fff;
+    padding-top: 5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 7rem;
+    left: 3rem; }
+    #testimonials .tes-account-block .account-ava {
+      position: absolute;
+      top: -4.5rem;
+      left: 2.6rem; }
+    #testimonials .tes-account-block .account-name {
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+      text-transform: uppercase; }
+    #testimonials .tes-account-block .folowers {
+      background-color: #ececec;
+      padding: 0.2rem;
+      text-transform: uppercase;
+      font-family: SF UI Display Regular,Helvetica,Arial,sans-serif; }
+    #testimonials .tes-account-block .cnt {
+      color: #3392ca;
+      font-family: SF UI Display Bold,Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      display: block; }
+    #testimonials .tes-account-block .account-posts, #testimonials .tes-account-block .account-folowinh {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      text-transform: uppercase;
+      font-family: SF UI Display Regular,Helvetica,Arial,sans-serif; }
+  #testimonials .insta-button {
+    text-decoration: none; }
+    #testimonials .insta-button:hover {
+      color: #fff;
+      background-color: #287eb1; }
+  #testimonials .slides ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem; }
+    #testimonials .slides ul li {
+      display: inline-block;
+      padding-right: 1rem;
+      border-bottom: 0.2rem solid;
+      text-align: center;
+      color: #bebebe;
+      text-transform: uppercase;
+      font-family: SF UI Display Bold,Helvetica,Arial,sans-serif; }
+      #testimonials .slides ul li.active, #testimonials .slides ul li:hover {
+        color: #3392ca; }
+        #testimonials .slides ul li.active a, #testimonials .slides ul li:hover a {
+          color: #3392ca; }
+      #testimonials .slides ul li a {
+        padding: 0.3rem;
+        color: #e0e0e0;
+        text-decoration: none; }
+
+#trial-offer .trial-bg {
+  position: absolute; }
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent; }
+    #mainNav .navbar-brand {
+      color: fade(white, 70%); }
+      #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+        color: #fff; }
+    #mainNav .navbar-nav > li > a {
+      color: rgba(255, 255, 255, 0.7); }
+      #mainNav .navbar-nav > li > a:focus {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-nav > li > a:focus:hover {
+          color: #fff; }
+      #mainNav .navbar-nav > li > a:hover {
+        color: #fff; }
+    #mainNav.navbar-shrink {
+      border-color: rgba(34, 34, 34, 0.1);
+      background-color: #fff; }
+      #mainNav.navbar-shrink .navbar-brand {
+        color: #222; }
+        #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+          color: #fdcc52; }
+      #mainNav.navbar-shrink .navbar-nav > li > a {
+        color: #222; }
+        #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+          color: #222; }
+          #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+            color: #fdcc52; }
+        #mainNav.navbar-shrink .navbar-nav > li > a:hover {
+          color: #fdcc52; } }
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: #282828;
+  background: url("../img/header_bg.png"), #d1d5d4; }
+  header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center; }
+    header.masthead .header-content .h_title {
+      font-size: 5rem;
+      color: #282828;
+      text-transform: uppercase;
+      text-align: left; }
+    header.masthead .header-content .h_subtitle {
+      font-size: 5.2rem;
+      color: #7f74d1;
+      text-transform: uppercase;
+      text-align: left; }
+    header.masthead .header-content .h_text {
+      display: block;
+      font-family: SF UI Display Medium;
+      font-size: 1.5rem;
+      color: #282828;
+      text-transform: uppercase;
+      text-align: left; }
+    header.masthead .header-content .h_links {
+      margin-top: 4rem; }
+      header.masthead .header-content .h_links a {
+        text-decoration: none; }
+      header.masthead .header-content .h_links .h_btn {
+        color: #fff;
+        background-color: #3392ca;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        font-size: 0.8rem;
+        text-decoration: none;
+        text-transform: uppercase; }
+        header.masthead .header-content .h_links .h_btn:hover {
+          background-color: #287eb1; }
+      header.masthead .header-content .h_links .h_play_link {
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: #282828;
+        font-family: SF UI Display Semibold; }
+    header.masthead .header-content h1 {
+      font-size: 30px; }
+  header.masthead .device-container {
+    max-width: 325px; }
+    header.masthead .device-container .screen img {
+      border-radius: 3px; }
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0; }
+    header.masthead .header-content {
+      margin-bottom: 0;
+      text-align: left; }
+      header.masthead .header-content h1 {
+        font-size: 50px; }
+    header.masthead .device-container {
+      max-width: 325px;
+      margin-left: -12rem;
+      margin-top: 2rem;
+      z-index: 1; } }
+
+section.download {
+  position: relative;
+  padding: 150px 0; }
+  section.download h2 {
+    font-size: 50px;
+    margin-top: 0; }
+  section.download .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; }

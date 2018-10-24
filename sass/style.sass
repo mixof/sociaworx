@@ -62,7 +62,10 @@ i.h_menu_icon
     background-color: $followers_count_color
     color: #fff 
     border-radius: 1.8rem
-    text-decoration: none          
+    text-decoration: none
+    white-space: nowrap
+    &:hover
+        background-color: $header_link_bg_hover_color          
 
 #mainNav
   border-color: rgba(34, 34, 34, 0.05)
@@ -190,8 +193,238 @@ i.h_menu_icon
                     color: #e0e0e0
                     text-decoration: none
 #trial-offer
+    margin-bottom: 4rem
     .trial-bg
-        position: absolute        
+        position: absolute
+        left: 0
+        top: 1rem
+    .trial-cost
+        margin-top: 10rem
+        text-align: center
+        h2
+            font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+            text-transform: uppercase
+            font-size: 2.2rem
+            color: #000
+        .cost
+            color: $followers_count_color
+            text-align: center            
+            span
+                font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+                text-transform: uppercase
+                font-size: 2.2rem  
+        p
+           font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+           text-transform: uppercase
+           font-size: 1.3rem
+           color: #000
+    .trial-text
+        padding-top: 10rem
+        text-align: left
+        h2
+           font-family: SF UI Display Bold,Helvetica,Arial,sans-serif
+           text-transform: uppercase
+           font-size: 4rem
+           color: $header_title_color
+           .trial-blue-text
+               color: $followers_count_color
+        .trial-subtitle
+            display: block
+            padding-bottom: 2rem
+            font-size: 1.8rem
+        .insta-button
+            text-decoration: none
+            font-family: SF UI Display Bold,Helvetica,Arial,sans-serif
+            &:hover
+                color: #fff
+#pricing
+   background: $header_bg, #d1d5d4
+   margin-left: 0
+   margin-right: 0
+   .price-block
+       background-color: #fff
+       border-radius: 1rem
+       text-align: center
+       padding: 2rem
+       margin: 1rem       
+       .insta-button
+         text-decoration: none
+         font-family: SF UI Display Bold,Helvetica,Arial,sans-serif
+         &:hover
+           color: #fff  
+       h2
+        font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+        text-transform: uppercase
+        color: $followers_count_color
+        font-size: 2rem       
+       p
+        font-size: 1.3rem        
+        margin-top: 0
+        margin-bottom: 0.1rem
+       p.cost
+        margin-bottom: 2rem
+        margin-top: 2rem
+        .number
+           font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+           text-transform: uppercase
+           font-size: 2rem 
+       .price-icon
+           margin-bottom: 2rem
+           display: block
+       i.p-basic
+           background: $price_basic_image
+           display: inline-block
+           height: 4.5rem
+           width: 4rem 
+           vertical-align: middle
+           margin-right: 0.3rem
+       i.p-advanced
+           background: $price_advanced_image
+           display: inline-block
+           height: 4.5rem
+           width: 4rem 
+           vertical-align: middle
+           margin-right: 0.3rem  
+       i.p-pro
+           background: $price_pro_image
+           display: inline-block
+           height: 4.5rem
+           width: 6.25rem 
+           vertical-align: middle
+           margin-right: 0.3rem 
+
+   .price-pro
+         h2
+           color: $pricing_pro_color
+         .insta-button
+             background-color: $pricing_pro_color
+             &:hover
+                 background-color: $pricing_pro_hover_color
+
+#why
+    text-align: center
+    h2
+        font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+        text-transform: uppercase
+        font-size: 2.2rem
+        padding-bottom: 5rem
+    i.pig-icon
+        background: $why_pig_image
+        display: inline-block
+        height: 7rem
+        width: 9rem 
+        vertical-align: middle
+        margin-right: 0.3rem
+    i.support-icon
+        background: $why_support_image
+        display: inline-block
+        height: 6.6rem
+        width: 12rem 
+        vertical-align: middle
+        margin-right: 0.3rem
+    i.likes-icon
+        background: $why_likes_image
+        display: inline-block
+        height: 6.3rem
+        width: 13.4rem 
+        vertical-align: middle
+        margin-right: 0.3rem
+    .why-block
+        text-align: left
+        h2
+            font-size: 1.3rem
+            margin-top: 1rem
+            padding-bottom: 1rem
+
+        p
+            font-size: 1.2rem
+
+#organic-growth,#social-pod
+    h2
+        font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+        text-transform: uppercase
+        font-size: 2.2rem
+        padding-bottom: 1rem
+    p
+        font-size: 1.2rem
+        padding-bottom: 1rem
+
+    .insta-button
+        text-decoration: none
+        text-transform: uppercase        
+        &:hover
+            color: #fff
+            background-color: $header_link_bg_hover_color
+
+    .grow-img
+        position: absolute
+        left: -5rem
+        top: -12rem
+#social-pod
+    margin-top: 10rem
+    .socpod-img
+        position: absolute
+        top: -12rem
+        right: 0   
+
+#questions
+   background:  $questions_bg2_image, $questions_bg_image
+   margin-top: 8rem
+   margin-left: 0
+   margin-right: 0  
+   padding-bottom: 3rem
+   #copyright
+       margin-top: 3rem
+   .contact-form
+       padding: 2rem
+       background-color: #fff
+       border-radius: 1.5rem
+       width: 100%
+       margin: 2rem 6rem
+       input[type="text"],input[type="email"]
+           padding: 0.8rem 1.5rem
+           display: block
+           margin-bottom: 1.6rem
+           width: 100%
+           border-radius: 1rem
+           outline: none
+           border: 1px solid #939393
+           &::-webkit-input-placeholder
+               font-size: 1.1rem
+               
+           
+       textarea
+           padding: 0.8rem 1.5rem
+           display: block
+           margin-bottom: 1.6rem
+           width: 100%
+           border-radius: 1.5rem
+           outline: none
+           border: 1px solid #939393
+           &::-webkit-input-placeholder
+               font-size: 1.1rem
+       input[type="submit"]
+           outline: none
+           cursor: pointer
+           border: none
+           text-transform: uppercase 
+   h2
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+      text-transform: uppercase
+      font-size: 2.2rem
+      padding-bottom: 1rem
+   .questions-subtitle
+      display: block
+      padding-bottom: 2rem
+      font-size: 1.8rem               
+                                  
+    
+
+
+
+
+
+
 
 
 
@@ -317,4 +550,4 @@ section.download
     margin-top: 0
   .badges .badge-link
     display: block
-    margin-bottom: 25px
+    margin-bottom: 25px   

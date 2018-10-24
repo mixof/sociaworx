@@ -112,7 +112,10 @@ i.h_menu_icon {
   background-color: #3392ca;
   color: #fff;
   border-radius: 1.8rem;
-  text-decoration: none; }
+  text-decoration: none;
+  white-space: nowrap; }
+  .insta-button:hover {
+    background-color: #287eb1; }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -237,8 +240,228 @@ i.h_menu_icon {
         color: #e0e0e0;
         text-decoration: none; }
 
-#trial-offer .trial-bg {
-  position: absolute; }
+#trial-offer {
+  margin-bottom: 4rem; }
+  #trial-offer .trial-bg {
+    position: absolute;
+    left: 0;
+    top: 1rem; }
+  #trial-offer .trial-cost {
+    margin-top: 10rem;
+    text-align: center; }
+    #trial-offer .trial-cost h2 {
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 2.2rem;
+      color: #000; }
+    #trial-offer .trial-cost .cost {
+      color: #3392ca;
+      text-align: center; }
+      #trial-offer .trial-cost .cost span {
+        font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        font-size: 2.2rem; }
+    #trial-offer .trial-cost p {
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      color: #000; }
+  #trial-offer .trial-text {
+    padding-top: 10rem;
+    text-align: left; }
+    #trial-offer .trial-text h2 {
+      font-family: SF UI Display Bold,Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 4rem;
+      color: #282828; }
+      #trial-offer .trial-text h2 .trial-blue-text {
+        color: #3392ca; }
+    #trial-offer .trial-text .trial-subtitle {
+      display: block;
+      padding-bottom: 2rem;
+      font-size: 1.8rem; }
+    #trial-offer .trial-text .insta-button {
+      text-decoration: none;
+      font-family: SF UI Display Bold,Helvetica,Arial,sans-serif; }
+      #trial-offer .trial-text .insta-button:hover {
+        color: #fff; }
+
+#pricing {
+  background: url("../img/header_bg.png"), #d1d5d4;
+  margin-left: 0;
+  margin-right: 0; }
+  #pricing .price-block {
+    background-color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem; }
+    #pricing .price-block .insta-button {
+      text-decoration: none;
+      font-family: SF UI Display Bold,Helvetica,Arial,sans-serif; }
+      #pricing .price-block .insta-button:hover {
+        color: #fff; }
+    #pricing .price-block h2 {
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      color: #3392ca;
+      font-size: 2rem; }
+    #pricing .price-block p {
+      font-size: 1.3rem;
+      margin-top: 0;
+      margin-bottom: 0.1rem; }
+    #pricing .price-block p.cost {
+      margin-bottom: 2rem;
+      margin-top: 2rem; }
+      #pricing .price-block p.cost .number {
+        font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        font-size: 2rem; }
+    #pricing .price-block .price-icon {
+      margin-bottom: 2rem;
+      display: block; }
+    #pricing .price-block i.p-basic {
+      background: url("../img/p-basic.png");
+      display: inline-block;
+      height: 4.5rem;
+      width: 4rem;
+      vertical-align: middle;
+      margin-right: 0.3rem; }
+    #pricing .price-block i.p-advanced {
+      background: url("../img/p-advanced.png");
+      display: inline-block;
+      height: 4.5rem;
+      width: 4rem;
+      vertical-align: middle;
+      margin-right: 0.3rem; }
+    #pricing .price-block i.p-pro {
+      background: url("../img/p-pro.png");
+      display: inline-block;
+      height: 4.5rem;
+      width: 6.25rem;
+      vertical-align: middle;
+      margin-right: 0.3rem; }
+  #pricing .price-pro h2 {
+    color: #7f74d1; }
+  #pricing .price-pro .insta-button {
+    background-color: #7f74d1; }
+    #pricing .price-pro .insta-button:hover {
+      background-color: #655baf; }
+
+#why {
+  text-align: center; }
+  #why h2 {
+    font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    padding-bottom: 5rem; }
+  #why i.pig-icon {
+    background: url("../img/pig.png");
+    display: inline-block;
+    height: 7rem;
+    width: 9rem;
+    vertical-align: middle;
+    margin-right: 0.3rem; }
+  #why i.support-icon {
+    background: url("../img/support.png");
+    display: inline-block;
+    height: 6.6rem;
+    width: 12rem;
+    vertical-align: middle;
+    margin-right: 0.3rem; }
+  #why i.likes-icon {
+    background: url("../img/likes.png");
+    display: inline-block;
+    height: 6.3rem;
+    width: 13.4rem;
+    vertical-align: middle;
+    margin-right: 0.3rem; }
+  #why .why-block {
+    text-align: left; }
+    #why .why-block h2 {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      padding-bottom: 1rem; }
+    #why .why-block p {
+      font-size: 1.2rem; }
+
+#organic-growth h2, #social-pod h2 {
+  font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  padding-bottom: 1rem; }
+
+#organic-growth p, #social-pod p {
+  font-size: 1.2rem;
+  padding-bottom: 1rem; }
+
+#organic-growth .insta-button, #social-pod .insta-button {
+  text-decoration: none;
+  text-transform: uppercase; }
+  #organic-growth .insta-button:hover, #social-pod .insta-button:hover {
+    color: #fff;
+    background-color: #287eb1; }
+
+#organic-growth .grow-img, #social-pod .grow-img {
+  position: absolute;
+  left: -5rem;
+  top: -12rem; }
+
+#social-pod {
+  margin-top: 10rem; }
+  #social-pod .socpod-img {
+    position: absolute;
+    top: -12rem;
+    right: 0; }
+
+#questions {
+  background: url("../img/qu_bg2.png"), url("../img/qu_bg.png");
+  margin-top: 8rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 3rem; }
+  #questions #copyright {
+    margin-top: 3rem; }
+  #questions .contact-form {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    width: 100%;
+    margin: 2rem 6rem; }
+    #questions .contact-form input[type="text"], #questions .contact-form input[type="email"] {
+      padding: 0.8rem 1.5rem;
+      display: block;
+      margin-bottom: 1.6rem;
+      width: 100%;
+      border-radius: 1rem;
+      outline: none;
+      border: 1px solid #939393; }
+      #questions .contact-form input[type="text"]::-webkit-input-placeholder, #questions .contact-form input[type="email"]::-webkit-input-placeholder {
+        font-size: 1.1rem; }
+    #questions .contact-form textarea {
+      padding: 0.8rem 1.5rem;
+      display: block;
+      margin-bottom: 1.6rem;
+      width: 100%;
+      border-radius: 1.5rem;
+      outline: none;
+      border: 1px solid #939393; }
+      #questions .contact-form textarea::-webkit-input-placeholder {
+        font-size: 1.1rem; }
+    #questions .contact-form input[type="submit"] {
+      outline: none;
+      cursor: pointer;
+      border: none;
+      text-transform: uppercase; }
+  #questions h2 {
+    font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    padding-bottom: 1rem; }
+  #questions .questions-subtitle {
+    display: block;
+    padding-bottom: 2rem;
+    font-size: 1.8rem; }
 
 @media (min-width: 992px) {
   #mainNav {

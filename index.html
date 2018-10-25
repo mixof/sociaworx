@@ -5,7 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">    
         <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/style.css"> 
+        <link rel="stylesheet" href="./css/swiper.min.css">          
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg" id="mainNav">
@@ -183,6 +184,39 @@
             </div>
         </div>
     </section>
+    <section id="who-is" class="who-is">
+        <div class="row">            
+            <div class="col-lg-12 who-wrapper">
+                <h2>WHO IS IT FOR?</h2>
+                <img src="img/composed.png" alt="" class="phone">
+                <div class="insta-carousel swiper-container">
+                    <div class="carousel-wrapper swiper-wrapper">
+                            <div class="insta-c-item swiper-slide">
+                                    <img src="img/sl8.png" alt="">
+                            </div>
+                        <div class="insta-c-item swiper-slide">
+                            <img src="img/sl8.png" alt="">
+                        </div>                  
+                        <div class="insta-c-item swiper-slide">
+                                <img src="img/sl8.png" alt="">
+                        </div>
+                        <div class="insta-c-item swiper-slide">
+                                <img src="img/sl8.png" alt="">
+                        </div>
+                        <div class="insta-c-item swiper-slide">
+                                <img src="img/sl8.png" alt="">
+                        </div>
+                        <div class="insta-c-item swiper-slide">
+                                <img src="img/sl8.png" alt="">
+                        </div>
+                        
+                    </div>                        
+                    <div class="swiper-scrollbar"></div>       
+                </div>                
+                <div class="mouse center-block"></div>
+            </div>
+        </div>
+    </section>   
     <section id="organic-growth" class="organic-growth">
         <div class="container">
             <div class="row">
@@ -219,13 +253,15 @@
     <section id="questions" class="questions">
         <div class="container">
             <div class="row">
-                <h2>GOT A QUESTION?</h2>
-                <span class="questions-subtitle">Not sure about something? Drop us a line, we insist!</span>
-                <form action="" class="contact-form">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                    <input type="submit" class="insta-button" value="Submit">
-                </form>
+                <div class="col-lg-12">
+                        <h2>GOT A QUESTION?</h2>
+                        <span class="questions-subtitle">Not sure about something? Drop us a line, we insist!</span>
+                        <form action="" class="contact-form">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                            <input type="submit" class="insta-button" value="Submit">
+                        </form>
+                </div>                
             </div>
         </div>
         
@@ -235,7 +271,8 @@
     </section>
     
           <script src="./js/jquery-3.3.1.min.js"></script>
-          <script src="./js/bootstrap.min.js"></script>    
+          <script src="./js/bootstrap.min.js"></script> 
+          <script src="./js/swiper.min.js"></script>
           <script src="./js/script.js"></script>
     </body>
 </html>

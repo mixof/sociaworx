@@ -33,6 +33,9 @@ p
   line-height: 1.5
   margin-bottom: 20px
 
+.row
+    margin-right: 0  
+
 section
   padding: 100px 0
   h2
@@ -331,6 +334,8 @@ i.h_menu_icon
         margin-right: 0.3rem
     .why-block
         text-align: left
+        .why-icon
+            margin-left: -2rem
         h2
             font-size: 1.3rem
             margin-top: 1rem
@@ -374,13 +379,15 @@ i.h_menu_icon
    margin-right: 0  
    padding-bottom: 3rem
    #copyright
-       margin-top: 3rem
+       margin-top: 3rem       
+   .row div
+       padding: 0 3rem    
    .contact-form
-       padding: 2rem
+       padding: 3rem
        background-color: #fff
        border-radius: 1.5rem
        width: 100%
-       margin: 2rem 6rem
+       margin: 0rem 0rem 3rem 0.5rem
        input[type="text"],input[type="email"]
            padding: 0.8rem 1.5rem
            display: block
@@ -411,13 +418,65 @@ i.h_menu_icon
    h2
       font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
       text-transform: uppercase
-      font-size: 2.2rem
-      padding-bottom: 1rem
+      font-size: 2.2rem      
+      text-align: center
    .questions-subtitle
+      text-align: center
       display: block
       padding-bottom: 2rem
-      font-size: 1.8rem               
-                                  
+      font-size: 1.4rem 
+
+
+
+#who-is
+    h2
+      font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
+      text-transform: uppercase
+      font-size: 2.2rem      
+      text-align: center
+    .who-wrapper
+        padding: 0
+        .phone
+            z-index: 2
+            position: absolute
+            left: 31%
+            top: 5.7rem  
+    .insta-carousel
+        margin-top: 4rem
+        margin-bottom: 2rem
+        .swiper-scrollbar
+            position: relative            
+            width: 70%
+            margin: 4rem auto 0 auto
+            .swiper-scrollbar-drag
+                background-color: $header_link_bg_color
+
+        .insta-c-item
+            display: inline-block            
+            z-index: 1  
+    .slider-control
+        background-color: $slider_color
+        padding: 0.1rem 0
+        width: 80%
+        position: relative
+        margin: 0 auto
+        .current
+            background-color: $header_link_bg_color
+            padding: 0.1rem 0
+            position: absolute
+            left: 40%
+            top: 0
+            width: 20%
+
+    .mouse
+        background: $mouse_image
+        width: 4rem
+        height: 4.2rem
+        margin: 0rem auto          
+
+                
+                
+                                          
     
 
 

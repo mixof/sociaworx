@@ -477,17 +477,31 @@ i.h_menu_icon {
   font-size: 2.2rem;
   text-align: center; }
 
+#who-is #iphonebg {
+  position: absolute;
+  left: 39.3%;
+  top: 6.6rem;
+  background-color: #000;
+  width: 245px;
+  height: 496px;
+  z-index: 1; }
+
 #who-is .who-wrapper {
   padding: 0; }
   #who-is .who-wrapper .phone {
-    z-index: 2;
+    z-index: 4;
     position: absolute;
     left: 31%;
     top: 5.7rem; }
+    #who-is .who-wrapper .phone img {
+      z-index: 3; }
 
 #who-is .insta-carousel {
   margin-top: 4rem;
   margin-bottom: 2rem; }
+  #who-is .insta-carousel .swiper-slide-active img {
+    width: 225px;
+    height: 500px; }
   #who-is .insta-carousel .swiper-scrollbar {
     position: relative;
     width: 70%;

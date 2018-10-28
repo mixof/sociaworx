@@ -432,18 +432,34 @@ i.h_menu_icon
     h2
       font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif
       text-transform: uppercase
-      font-size: 2.2rem      
+      font-size: 2.2rem     
       text-align: center
+
+    #iphonebg
+        position: absolute
+        left: 39.3%
+        top: 6.6rem
+        background-color: #000
+        width: 245px
+        height: 496px
+        z-index: 1          
+    
     .who-wrapper
         padding: 0
         .phone
-            z-index: 2
+            z-index: 4
             position: absolute
             left: 31%
-            top: 5.7rem  
+            top: 5.7rem
+            img  
+                z-index: 3
     .insta-carousel
         margin-top: 4rem
         margin-bottom: 2rem
+        .swiper-slide-active
+            img
+                width: 225px
+                height: 500px
         .swiper-scrollbar
             position: relative            
             width: 70%
@@ -472,7 +488,7 @@ i.h_menu_icon
         background: $mouse_image
         width: 4rem
         height: 4.2rem
-        margin: 0rem auto          
+        margin: 0rem auto                  
 
                 
                 

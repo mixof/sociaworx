@@ -39,3 +39,9 @@
   font-style: normal;
   font-weight: normal;
   src: local("SF UI Display Heavy"), url("sf-ui-display-heavy-586470160b9e5.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Montserrat-Italic';
+  font-style: italic;
+  font-weight: normal;
+  src: local("Montserrat-Italic"), url("Montserrat-Italic.woff") format("woff"); }  

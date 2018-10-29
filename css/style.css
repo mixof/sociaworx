@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*-----------Bg images-------------*/
 /*-----------Font colors-----------*/
 /*------------Bg colors-----------*/
@@ -96,6 +97,14 @@ i.play {
   vertical-align: middle;
   margin-right: 0.3rem; }
 
+i.member {
+  background: url("../img/signup.png");
+  display: inline-block;
+  height: 16px;
+  width: 13px;
+  vertical-align: middle;
+  margin-right: 0.3rem; }
+
 i.h_menu_icon {
   background: url("../img/menu.png");
   display: inline-block;
@@ -116,9 +125,22 @@ i.h_menu_icon {
   color: #fff;
   border-radius: 1.8rem;
   text-decoration: none;
-  white-space: nowrap; }
+  white-space: nowrap;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s; }
   .insta-button:hover {
     background-color: #287eb1; }
+
+#signup_link {
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+  font-size: 1.2rem;
+  margin-right: 3rem; }
+  #signup_link:hover {
+    color: #7b7777; }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -298,9 +320,15 @@ i.h_menu_icon {
     border-radius: 1rem;
     text-align: center;
     padding: 2rem;
-    margin: 1rem; }
+    margin: 1rem;
+    padding-bottom: 10rem; }
+    #pricing .price-block .prcing {
+      position: absolute;
+      bottom: 2rem;
+      width: 85%; }
     #pricing .price-block .insta-button {
       text-decoration: none;
+      display: block;
       font-family: SF UI Display Bold,Helvetica,Arial,sans-serif; }
       #pricing .price-block .insta-button:hover {
         color: #fff; }
@@ -314,7 +342,7 @@ i.h_menu_icon {
       margin-top: 0;
       margin-bottom: 0.1rem; }
     #pricing .price-block p.cost {
-      margin-bottom: 2rem;
+      margin-bottom: 0.5rem;
       margin-top: 2rem; }
       #pricing .price-block p.cost .number {
         font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
@@ -486,26 +514,45 @@ i.h_menu_icon {
   height: 496px;
   z-index: 1; }
 
+#who-is .leftblur {
+  width: 20rem;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  background-color: #ffffff99;
+  z-index: 55;
+  -webkit-filter: blur(20px);
+  filter: blur(20px); }
+
+#who-is .rightblur {
+  width: 20rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: #ffffff99;
+  z-index: 55;
+  -webkit-filter: blur(20px);
+  filter: blur(20px); }
+
 #who-is .who-wrapper {
   padding: 0; }
   #who-is .who-wrapper .phone {
     z-index: 4;
     position: absolute;
     left: 31%;
-    top: 5.7rem; }
+    top: 5.7rem;
+    display: none; }
     #who-is .who-wrapper .phone img {
       z-index: 3; }
 
 #who-is .insta-carousel {
   margin-top: 4rem;
   margin-bottom: 2rem; }
-  #who-is .insta-carousel .swiper-slide-active img {
-    width: 225px;
-    height: 500px; }
   #who-is .insta-carousel .swiper-scrollbar {
     position: relative;
     width: 70%;
-    margin: 4rem auto 0 auto; }
+    margin: 4rem auto 0 auto;
+    height: 3px; }
     #who-is .insta-carousel .swiper-scrollbar .swiper-scrollbar-drag {
       background-color: #3392ca; }
   #who-is .insta-carousel .insta-c-item {
@@ -531,6 +578,39 @@ i.h_menu_icon {
   width: 4rem;
   height: 4.2rem;
   margin: 0rem auto; }
+
+.reviews-list {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  padding-inline-start: 0; }
+  .reviews-list li {
+    padding-bottom: 1rem; }
+    .reviews-list li::before {
+      content: "•";
+      color: #c65077;
+      display: inline-block;
+      position: relative;
+      float: left !important;
+      margin-right: 1rem;
+      font-size: 3rem;
+      text-align: center;
+      vertical-align: top;
+      margin-top: -1rem; }
+  .reviews-list h2 {
+    font-family: SF UI Display Semibold,Helvetica,Arial,sans-serif;
+    font-size: 2.2rem;
+    text-align: left; }
+  .reviews-list p {
+    font-family: Montserrat-Italic,sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+    color: #282828; }
+
+#page-header {
+  font-size: 7rem; }
 
 @media (min-width: 992px) {
   #mainNav {
